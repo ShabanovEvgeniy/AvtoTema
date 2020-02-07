@@ -2,6 +2,58 @@
     font-family:'lato-semi',Arial, Helvetica, sans-serif ;
     src: url(../../fonts/lato-semibold.woff) style('woff'),
          url(../../fonts/lato-semibold.woff2) style('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'Opensans',Arial, Helvetica, sans-serif ;
+    src: url(../../fonts/opensans-semibold.woff) style('woff'),
+         url(../../fonts/opensans-semibold.woff2) style('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'raleway',Arial, Helvetica, sans-serif ;
+    src: url(../../fonts/raleway-bold.woff) style('woff'),
+         url(../../fonts/raleway-bold.woff2) style('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family:'roboto-bold',Arial, Helvetica, sans-serif ;
+    src: url(../../fonts/roboto-bold.woff) style('woff'),
+         url(../../fonts/roboto-bold.woff2) style('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'roboto-light',Arial, Helvetica, sans-serif ;
+    src: url(../../fonts/roboto-light.woff) style('woff'),
+         url(../../fonts/roboto-light.woff2) style('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'roboto-medium',Arial, Helvetica, sans-serif ;
+    src: url(../../fonts/roboto-medium.woff) style('woff'),
+         url(../../fonts/roboto-medium.woff2) style('woff2');
     font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family:'roboto-regular',Arial, Helvetica, sans-serif ;
+    src: url(../../fonts/roboto-regular.woff) style('woff'),
+         url(../../fonts/roboto-regular.woff2) style('woff2');
+    font-weight: 400;
+    font-style: normal;
     font-display: swap;
 }
