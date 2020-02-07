@@ -1,0 +1,12 @@
+@import "node_modules/normalize.css/normalize";
+@import "base/variables";
+@import "base/components";
+@import "base/mixins";
+@import "base/fonts";
+@import "base/reset";
+@import "base/extensions";
+
+body {
+    @include default-text();
+    background-color :$red;
+}
