@@ -1,1 +1,2 @@
 # AvtoTema
+npm i
