@@ -6,7 +6,79 @@
 @import "base/reset";
 @import "base/extensions";
 
+html {
+
+    font-size: 15px;
+}
+
 body {
-    @include default-text();
+    font-family: 'roboto-medium',Arial, Helvetica, sans-serif;
     background-color :$red;
+
+}
+
+.header {
+    background-color: #fff;
+
+
+    &__content-block { 
+     background: #f5f5f5;
+     border-bottom: 1px solid #e1e7ec;
+     position: relative;
+    }
+
+    &__item {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .item {
+
+        &__info {
+            margin-right: 15px;
+
+      }
+      &__btn {
+
+        display: flex;
+        align-items: center;
+        background-color: powderblue;
+        padding: 0 9px;
+
+        
+    }
+    &__icon {
+        margin-right: 10px;
+    }
+
+    &__telephon {
+        display: flex;
+        align-items: center;
+    }
+    }
+
+    &__nav {
+        display: flex;
+        align-items: center;
+
+        .items {
+            margin-right: 10px;
+            position: relative;
+            padding: 0 15px
+
+        }
+
+        .items::before {
+            content: '';
+            width: 5px;
+            height: 5px;
+            border-radius: 50%;
+            background-color: black;
+            position: absolute;
+            right: 0;
+            top: 9px;
+        }
+    }
+
 }

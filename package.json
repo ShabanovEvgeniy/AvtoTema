@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "gulp-sourcemaps": "^2.6.5"
   },
   "devDependencies": {
