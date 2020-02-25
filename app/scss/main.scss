@@ -82,3 +82,131 @@ body {
     }
 
 }
+// ------------header end-------------
+
+// -----------section About start-------
+
+.about {
+
+    padding-top: 25px;
+    
+    &__container{
+        
+        
+        .title{  
+            font-size: 2rem;
+            font-family: roboto-regular;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            margin-bottom: 15px;
+            color: aquamarine
+
+        }
+        
+        
+        .row {
+                
+            display: flex;
+            
+
+.card {
+
+    text-transform: uppercase;
+    text-align: right;
+    position: relative;
+    
+
+    &__title {
+        font-family: 'raleway';
+        font-weight: 700;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        padding-right: 10px;
+        color: #fff;
+        
+    }
+
+    &__description {
+        width: 100%;
+        background: #f3f3f3;
+        color: #606975;
+        text-transform: uppercase;
+        font-family: 11px/17px OpenSans-Bold;
+        padding: 12px 25px; 
+        opacity: .77;
+        margin-bottom: 30px;
+        
+    }
+
+    &__icon {
+        position: absolut;
+        bottom: 0px;
+    }
+
+}
+
+.slider {
+
+    padding: 15px;
+    background-color: skyblue;
+    height: 100%;
+
+    &__desc {
+
+        display: flex;
+        height: 100%;
+        flex-wrap: wrap;
+        align-items: center;
+
+    }
+    .item {
+
+
+        &__card {
+            padding: 0 10px;
+            width:  25%;
+            text-align: center;
+            margin: 10px auto;
+        }
+
+        &__img {
+
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin-bottom: 10px;
+
+
+            img{
+                width: 100%;
+
+            }
+        }
+
+    }
+}
+    
+
+        }
+    }
+    
+}
+
+.card_bg-green {
+
+    background-color: green;
+}
+
+.card_bg-red {
+
+    background-color: tomato;
+}
+
+
+
+        
+
+            
+        
+    
